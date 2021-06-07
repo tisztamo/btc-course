@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Bitcoin intro course</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>Blockchain intro</h3>
+					Krisztián Schäffer, 2021
+				</section>
+				<section>
+					<img class="r-stretch" src="whitepaper.png">
+				</section>
+				<section>
+					Cryptographic hashing
+					<img class="r-stretch" src="assets/Cryptographic_Hash_Function.svg.png">
+					<small>Source: Wikipedia</small>
+				</section>
+				<section>
+					Public key encryption
+					<img class="r-stretch" src="assets/Public_key_encryption.svg">
+					<small>Source: Wikipedia</small>
+				</section>
+				<section>
+					Digital signature
+					<img class="r-stretch" src="assets/signature.png">
+					<small>Source: https://medium.com/@meruja/digital-signature-generation-75cc63b7e1b4</small>
+				</section>
+				<section>
+					Coin: chained transactions
+					<img class="r-stretch" src="assets/trchain.png">
+					<small>Source: Bitcoin whitepaper</small>
+				</section>
+				<section>
+					"Timestamp server"
+					<img class="r-stretch" src="assets/anyakonyv.jpg">
+					<small>Source: https://karolyfalva.blogspot.com/p/blog-page_1.html</small>
+				</section>
+				<section>
+					Blockchain: "Timestamp server"
+					<img class="r-stretch" src="assets/blockchain.png">
+					<small>Source: Bitcoin whitepaper</small>
+				</section>
+				<section>
+					Proof of work
+					<img class="r-stretch" src="assets/pow.png">
+					<small>Source: Bitcoin whitepaper</small>
+				</section>
+				<section>
+					Reclaiming disk space
+					<img class="r-stretch" src="assets/merkle.png">
+					<small>Source: Bitcoin whitepaper</small>
+				</section>
+				<section>
+					Merkle tree example
+					<img class="r-stretch" src="assets/merkle-example.png">
+					<small>Source: https://developer.bitcoin.org/reference/block_chain.html</small>
+				</section>
+				<section>
+					Combining and Splitting Value
+					<img class="r-stretch" src="assets/splitcomb.png">
+					<small>Source: Bitcoin whitepaper</small>
+				</section>
+				<section>
+					Privacy
+					<img class="r-stretch" src="assets/privacy.png">
+					<small>Source: Bitcoin whitepaper</small>
+				</section>
+				<section>
+					<p>How many blocks needed to "validate" a tx?</p>
+					<p><small>q: Probability the attacker finds the next block (attacking hash power proportion)</small><br>
+					<small>P: Probability of succesful double spending</small></p>
+					<img class="r-stretch" src="assets/calc.png">
+					<small>Source: Bitcoin whitepaper</small>
+				</section>
+				<section>
+					Genesis Block
+					<img class="r-stretch" src="genesis.png">
+				</section>
+				<section>
+					<img class="r-stretch" src="times.jpg">
+				</section>
+				<section>
+					<img class="r-stretch" src="smart-contract-1.png">
+				</section>
+				<section>
+					<p>NFT</p>
+					<img class="r-stretch" src="beeple.jpg">
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+				<section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
